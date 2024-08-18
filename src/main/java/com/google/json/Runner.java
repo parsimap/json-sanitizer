@@ -49,6 +49,6 @@ public class Runner {
         String newFileName = fileName+"_sanitized.json";
         boolean fileWritten =writeSanitizedJSONFile(wellFormedJson, newFileName);
         assert fileWritten;
-        System.out.println("Created "+newFileName+" at "+JSON_HOME+".");
+        System.out.println("Created "+newFileName+" at "+JSON_HOME);
     }
 }
