@@ -15,3 +15,7 @@ target
 # Emacs
 *~
 \#*\#
+
+
+# json files
+/jsonHome/*.json
